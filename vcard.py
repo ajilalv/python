@@ -10,7 +10,8 @@ def readData(st,en,lines):
     return contact
 
 lines = []
-with open('test.txt') as f:
+#assumes test.vcf file at same location
+with open('test.vcf') as f:
     lines = f.readlines()
 
 ln = 1
